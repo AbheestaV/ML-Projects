@@ -47,6 +47,19 @@ counter2()
 
 # %%
 
+def increaser(numbers):
+    new_numbers = []
+    for number in numbers:
+        number += 2
+        new_numbers.append(number)
+    return new_numbers
+
+
+print(increaser([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+
+
+# %%
+
 def age_c(ages):
     new_ages = []
     for yob in ages:
